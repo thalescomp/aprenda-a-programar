@@ -7,61 +7,61 @@ let variavel3 = []
 let variavel4 = [1,2,3,4]
 let variavel5 = "Nome"
 
-//1
+//1 A
 if (variavel1 == 10) {
     console.log("A");
 } else {
     console.log("B");
 }
-//2
+//2 B
 if (variavel1 > 10) {
     console.log("A");
 } else {
     console.log("B");
 }
-//3
-if (variavel1 >= 10) {
+//3 A
+if (variavel1 <= 10) {
     console.log("A");
 } else {
     console.log("B");
 }
-//4
+//4 A
 if (variavel2 == true) {
     console.log("A");
 } else {
     console.log("B");
 }
-//5
-if (variavel2) {
+//5 A
+if (variavel2) { // undefined, null, NaN, 0, "", false -> false
     console.log("A");
 } else {
     console.log("B");
 }
-//6
+//6 A
 if (variavel3) {
     console.log("A");
 } else {
     console.log("B");
 }
-//7
+//7 A
 if (variavel4) {
     console.log("A");
 } else {
     console.log("B");
 }
-//8
+//8 A
 if (variavel4[0] == 1) {
     console.log("A");
 } else {
     console.log("B");
 }
-//9
+//9 B
 if (variavel4[1] == 1) {
     console.log("A");
 } else {
     console.log("B");
 }
-//10
+//10 A
 if (typeof(variavel5) == 'string') {
     console.log("A");
 } else {
