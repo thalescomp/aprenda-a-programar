@@ -109,3 +109,10 @@ let receita = [
     {'valor': 344, 'gorjeta': 34.4},
     {'valor': 809, 'gorjeta': 80.9}
 ]
+
+let valorTotal = 0
+for (item of receita) {
+    valorTotal = item.valor + valorTotal
+}
+
+console.log(valorTotal)
